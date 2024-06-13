@@ -1,0 +1,41 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#game {
+    margin-top: 50px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#clickButton {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    box-shadow: 0 4px #d32f2f;
+}
+
+#clickButton:active {
+    box-shadow: 0 2px #d32f2f;
+    transform: translateY(2px);
+}
+
+#upgradeButton {
+    background-color: #3742fa;
+    color: white;
+    border: none;
+    box-shadow: 0 4px #2f2fb5;
+}
+
+#upgradeButton:active {
+    box-shadow: 0 2px #2f2fb5;
+    transform: translateY(2px);
+}
